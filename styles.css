@@ -12,7 +12,7 @@ html, body {
     margin:0px 0px;
 }
 
-.logo {
+.logo, .action-head{
     font-size:24px;
     color:#F9FAF8;
     font-weight: bold;
@@ -32,7 +32,7 @@ ul {
     justify-content: flex-end;
     flex:1;
 }
-a, .sub-text, .foot-text {
+a, .sub-text, .foot-text, .action-body {
     text-decoration: none;
     font-size:18px;
     color:#E5E7EB;
@@ -57,14 +57,19 @@ a, .sub-text, .foot-text {
 }
 
 button {
-    border:none;
-    border-radius:12px;
+    border-width:0px;
+    border-style:solid;
+    border-radius:10px;
     font-weight:bold;
     font-size:18px;
     color:#E5E7EB;
     background-color: #3882F6;
     padding: 8px 32px;
+    height:36px;
     margin:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .random-info {
@@ -130,6 +135,29 @@ button {
     margin:8px;
 }
 
+#action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:70px 0px;
+}
+
+.action-box {
+    display:flex;
+    width:60%;
+    background-color:#3882F6;
+    border-radius:10px;
+    justify-content: space-between;
+    padding:4% 8%;
+    align-items: center;
+}
+
+.action-body {
+    margin:0;
+}
+.action-head {
+    margin-bottom:4px;
+}
 #footer {
     background-color:#1F2937;
     display:flex;
@@ -140,4 +168,9 @@ button {
 
 .foot-text {
     font-size:14px;
+}
+
+.action-signup {
+    border-color:#F9FAF8;
+    border-width: 2px;
 }
