@@ -1,0 +1,36 @@
+#header {
+    background-color:#1F2937;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10%;
+    gap:10%;
+}
+
+html, body {
+    font-family:'Roboto',sans-serif;
+    margin:0px 0px;
+}
+.logo {
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    display:flex;
+    gap:12px;
+}
+
+.links {
+    display:flex;
+    justify-content: flex-end;
+    flex:1;
+}
+a {
+    text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB;
+}
