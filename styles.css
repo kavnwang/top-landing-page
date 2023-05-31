@@ -1,4 +1,4 @@
-#header {
+#header, #intro {
     background-color:#1F2937;
     display:flex;
     align-items: center;
@@ -6,6 +6,8 @@
     padding:0px 10%;
     gap:10%;
 }
+
+
 
 html, body {
     font-family:'Roboto',sans-serif;
@@ -15,6 +17,8 @@ html, body {
     font-size:24px;
     color:#F9FAF8;
     font-weight: bold;
+    padding:0px;
+    margin:0px;
 }
 
 ul {
@@ -29,8 +33,37 @@ ul {
     justify-content: flex-end;
     flex:1;
 }
-a {
+a, .sub-text {
     text-decoration: none;
     font-size:18px;
     color:#E5E7EB;
+}
+.intro-image {
+    width:350px;
+    height:auto;
+}
+.bold-text {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    margin:0px;
+}
+.sub-text {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+#intro {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+button {
+    border:none;
+    border-radius:12px;
+    font-weight:bold;
+    font-size:18px;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    margin:0px;
 }
