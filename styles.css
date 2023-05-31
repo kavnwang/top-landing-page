@@ -67,3 +67,33 @@ button {
     padding: 8px 32px;
     margin:0px;
 }
+
+.random-info {
+    font:36px extra-bold #1F2937;
+    text-align: center;
+    padding:30px 0;
+    margin:0px;
+}
+.img-row {
+    display:flex;
+    padding: 0 16%;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:150px;
+}
+.info-img {
+    width:150px;
+    height:150px;
+    border-radius: 16px;
+}
+
+#info {
+    padding-bottom:60px;
+    margin:0px;
+}
